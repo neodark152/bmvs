@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">bc_final</string>
+    <string name="text_start">Blockchain Based Photo Verification System</string>
+    <string name="log_output">Log Output:\n</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="verify">Verify Photo</string>
+</resources>
