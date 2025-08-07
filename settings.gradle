@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "bc_final"
+rootProject.name = "bmvs"
 include ':app'

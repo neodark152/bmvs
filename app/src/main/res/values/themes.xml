@@ -1,9 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.Bc_final" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.bmvs" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.Bc_final" parent="Base.Theme.Bc_final" />
+    <style name="Theme.bmvs" parent="Base.Theme.bmvs" />
 </resources>

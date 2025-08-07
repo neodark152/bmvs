@@ -1,4 +1,4 @@
-package com.example.bc_final;
+package com.example.bmvs;
 
 import org.junit.Test;
 
