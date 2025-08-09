@@ -1,4 +1,4 @@
-# ImageVerify: A Blockchain-Based Multimedia Verification System (BMVS)
+# A Novel Private Blockchain Based Multimedia Verification Systems (BMVS)
 
 This repository provides the source code and usage instructions for **ImageVerify**, an Android application leveraging blockchain technology to capture and verify the authenticity of digital images.
 
@@ -11,11 +11,11 @@ This repository provides the source code and usage instructions for **ImageVerif
 The system comprises six primary modules:
 
 - **Image**: Captures images via the device camera and packages the original image along with the corresponding blockchain data into a ZIP archive.
-- **Main UI**: Manages block creation, ensures data integrity, and handles data storage.
-- **Photographing**: Processes incoming ZIP packages by extracting contents and verifying the authenticity of images through blockchain validation.
-- **Verifying**: *(Description needed)*
-- **NodeMessage**: *(Description needed)*
-- **Database**: *(Description needed)*
+- **Main UI**: Provides two buttons for capturing and verifying images.
+- **Photographing**: Invokes the device camera to capture an image and packages the original image together with the corresponding block data into a ZIP archive.
+- **Verifying**: Processes incoming ZIP packages by extracting contents and verifying the authenticity of images through blockchain network.
+- **NodeMessage**: Facilitates peer-to-peer communication between nodes, including the formatting, transmission, and parsing of messages for image data, blockchain updates, and verification requests.
+- **Database**: Stores blockchain records, image metadata, and other essential system information.
 
 ---
 
@@ -41,5 +41,8 @@ The system comprises six primary modules:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/imageverify.git
-   cd imageverify
+   git clone https://github.com/neodark152/bmvs.git
+   
+2. Ensure you have at least TWO devices. This project requires the "TrustedNodeList" to include at least three nodes, and at least two nodes must be online simultaneously to enable block generation.
+
+3. Modify the code in the initOwnInfo method within MainActivity to load different private keys and addresses for each device. We provide two distinct owninfo files under app/src/main/assets for this purpose. The database tables store three key pairs, including those corresponding to these owninfo files.
