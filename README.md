@@ -10,11 +10,11 @@ This repository provides the source code and usage instructions for **ImageVerif
 
 The system comprises six primary modules:
 
-- **Image**: Captures images via the device camera and packages the original image along with the corresponding blockchain data into a ZIP archive.
-- **Main UI**: Provides two buttons for capturing and verifying images.
 - **Photographing**: Invokes the device camera to capture an image and packages the original image together with the corresponding block data into a ZIP archive.
 - **Verifying**: Processes incoming ZIP packages by extracting contents and verifying the authenticity of images through blockchain network.
+- **Main UI**: Provides two buttons for capturing and verifying images.
 - **NodeMessage**: Facilitates peer-to-peer communication between nodes, including the formatting, transmission, and parsing of messages for image data, blockchain updates, and verification requests.
+- **Image**: Captures images via the device camera and packages the original image along with the corresponding blockchain data into a ZIP archive.
 - **Database**: Stores blockchain records, image metadata, and other essential system information.
 
 ---
